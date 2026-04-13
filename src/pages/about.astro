@@ -1,26 +1,8 @@
 ---
-import "../styles/global.css";
-
-const pageTitle = "About Me";
-const identity = "Ty";
-const school = "My class";
-const hobbies = ["music", "sports", "learning web design"];
+import Layout from "../layouts/Layout.astro";
 ---
 
-<h1>{pageTitle}</h1>
-
-<p>My name is {identity}.</p>
-<p>I go to {school}.</p>
-
-<ul>
-  {hobbies.map((hobby) => <li>{hobby}</li>)}
-</ul>
-
-<a href="/">Home</a>
-<a href="/blog">Blog</a>
-
-<style>
-  h1 {
-    color: blue;
-  }
-</style>
+<Layout title="About">
+  <h2>About Me</h2>
+  <p>This is my About page for the Astro assignment.</p>
+</Layout>
