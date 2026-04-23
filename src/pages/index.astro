@@ -1,8 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Home Page";
 ---
 
-<Layout title="Home">
-  <h2>Welcome to my Astro site</h2>
-  <p>This project includes a reusable navigation bar, a social footer, a custom header, and JavaScript running in the browser.</p>
-</Layout>
+<BaseLayout pageTitle={pageTitle}>
+  <h2>My awesome blog subtitle</h2>
+  <p>Welcome to my Astro website.</p>
+</BaseLayout>

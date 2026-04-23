@@ -1,8 +1,9 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "About Me";
 ---
 
-<Layout title="About">
-  <h2>About Me</h2>
+<BaseLayout pageTitle={pageTitle}>
   <p>This is my About page for the Astro assignment.</p>
-</Layout>
+</BaseLayout>

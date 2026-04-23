@@ -1,16 +1,11 @@
 ---
-title: My First Blog Post
-description: This is my first Astro markdown post.
+layout: ../../layouts/MarkdownPostLayout.astro
+title: "My First Blog Post"
+author: "Tyraine Johnson"
+pubDate: 2026-04-23
+description: "My first Astro blog post using a custom layout."
 ---
 
-# My First Blog Post
+This is my first blog post for my Astro assignment.
 
-I made this post using **Markdown**.
-
-## Things I learned
-
-- Astro pages use `.astro`
-- Blog posts can use `.md`
-- Markdown is simple and useful
-
-This is my first blog post for class.
+I am learning how to use Markdown layouts, frontmatter, and shared Astro layouts.
