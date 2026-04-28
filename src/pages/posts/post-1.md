@@ -4,6 +4,7 @@ title: "My First Blog Post"
 author: "Tyraine Johnson"
 pubDate: 2026-04-21
 description: "This is my first Astro markdown post."
+tags: ["astro", "blogging", "school"]
 ---
 
 I made this post using Markdown.
